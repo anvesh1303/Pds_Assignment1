@@ -1,3 +1,5 @@
+1.1 Frailty study
+
 The given dataset contains information about 10 individuals including their height, weight, age, grip strength, and frailty status. The data is structured as a table with 5 columns and 10 rows. The variables "Height (Inches)", "Weight (Pounds)", "Age", and "Grip strength" are numeric while the "Frailty" variable is categorical with two levels ("Y" and "N").
 
 After the preprocessing steps performed in the R code, the dataset is cleaned and ready for analysis. The missing values are removed using na.omit(). The "Frailty" variable is converted into a binary indicator variable with "Y" coded as 1 and "N" coded as 0. Scaling of the numeric variables to have mean 0 and standard deviation 1 is commented out in the code. The preprocessed data is then saved to a new CSV file using write.csv().
